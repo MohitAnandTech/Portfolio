@@ -1,0 +1,59 @@
+body {
+   background-color: #FFFFFF;
+   font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+   width: 600px;
+   color: #000066;
+}
+
+#header {
+   background-color: #869DC7;
+   color: #00005D;
+   font-size: 150%;
+   background-repeat: no-repeat;
+   background-image: url(lighthouselogo.jpg);
+   padding: 10px 10px 10px 155px;
+}
+
+h1 {
+   margin-bottom: 20px;
+}
+
+h2 {
+   color: #869DC7;
+   font-family: Arial, sans-serif; 
+}
+
+#news {
+   float: left;
+   width: 200px;
+   font-size:0.8em;
+   padding: 40px 5px 10px 10px;
+}
+
+#nav  {
+   display:none;
+}
+   
+#content {
+   background-color: #FFFFFF;
+   color: #000000;
+   padding: 10px 20px;
+   overflow: auto;
+   font-size: 12px;
+   }
+   
+#footer {
+   font-size: 90%;
+   text-align: center;
+   padding: 10px;
+   background-color: #FFFFFF;
+   clear:both;
+}
+
+#floatright {
+   float: right;
+   margin: 10px;
+}

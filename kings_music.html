@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function validateForm(){
+         var firstName = document.forms["signUpForm"]["firstName"].value;
+         var lastName = document.forms["signUpForm"]["lastName"].value;
+         var email = document.forms["signUpForm"]["email"].value;
+         if (firstName == "") {
+         alert("First Name is required.");
+         return false;
+            }
+            if (lastName == "") {
+         alert("Last Name is required.");
+         return false;
+            }
+            if (email == "") {
+         alert("Email is required.");
+         return false;
+            }
+            }
+    </script>
+<title>Kings Music|Signup Form</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="css/print_index.css" media="print">
+    <meta charset="utf-8">
+</head>
+<body onload="alert('Welcome to the Kings Music Store - Newsletter Signup')">
+    <div id="header">
+        <h1>SignUp Form</h1>
+        <img src="images/logo.jpg" alt="Logo" >
+    </div>
+    <div id="news">
+        <h3>Welcome</h3>
+        <p>Official website of Mohit Anand which contains original information.</p>
+        <h3>My Info</h3>
+        <p>* student</p><br>
+        <p>*Bachelors of IT.</p><br>
+        <p>*Southern Cross University, Melbourne</p>
+    </div>
+    <div id="nav">
+        <a href="index.html">Home </a>
+        <a href="resume.html">Resume</a>
+        <a href="skills.html">Skills </a>
+    </div>
+	<div id="content">
+        <h1>Music Sign Up</h1>
+    <form method="post" action="http://infotech.scu.edu.au/cgi-bin/echo_form" name="signUpForm" onsubmit="return validateForm()">
+        <label class="leftside">First Name:*</label><input type="text" maxlength="60" name="firstName" class="rightside">
+        <label class="leftside">Last Name:*</label><input type="text" maxlength="60" name="lastName" class="rightside">
+        <label class="leftside">E-mail:*</label><input type="email" maxlength="60" name="email" class="rightside">
+    <fieldset class="leftside">
+        <legend>Please select your age</legend>
+        <label class="leftside"><input type="radio"  name="age" value="15-25">15-25</label>
+        <label class="leftside"><input type="radio"  name="age" value="26-35">26-35</label>
+        <label class="leftside"><input type="radio"  name="age" value="36-45">36-45</label>
+        <label class="leftside"><input type="radio"  name="age" value="46-55">46-55</label>
+        <label class="leftside"><input type="radio"  name="age" value="55+">55+</label>
+    </fieldset>
+    <fieldset class="leftside">
+        <legend>Please select your Favourite music</legend>
+        <input type="checkbox"  name="heavymetal" value="heavymetal"><label>Heavy Metal</label>
+        <input type="checkbox"  name="Country and Western" value="Country and Western"><label>Country and Western</label>
+        <input type="checkbox"  name="Classical" value="Classical"><label>Classical</label>
+        <input type="checkbox"  name="Rock & Roll" value="Rock & Roll"><label>Rock & Roll</label>
+        <input type="checkbox"  name="Pop" value="pop"><label>Pop</label>
+        <input type="checkbox"  name="Folk" value="Folk"><label>Folk</label>
+        <input type="checkbox"  name="Blues" value="Blues"><label>Blues</label>
+        <input type="checkbox"  name="Jazz" value="Jazz"><label>Jazz</label>
+        <input type="checkbox"  name="Disco" value="Disco"><label>Disco</label>
+        <input type="checkbox"  name="Opera" value="Opera"><label>Opera</label>
+        </fieldset>
+        <label class="leftside"> Please let us know any further type of music</label>
+        <textarea col="60" rows="3"></textarea>
+        <input type="submit" value="Sign Up" target="http://infotech.scu.edu.au/cgi-bin/echo_form">
+        <input type="reset" value="Reset">
+    </form>
+    </div>
+    <div id="footer">
+         &copy;Copyright all reserved
+     <br>contact number: <a href="tel:+61435039346"> +61435039346 </a>
+    </div>
+</body>
+</html>
+      

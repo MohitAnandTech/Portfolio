@@ -1,0 +1,99 @@
+body {
+   background-color: #F0E68C;
+   font-family: Cambria, Arial, Calibri;
+}
+
+#wrapper {
+   margin: 0 auto;
+   width: 50%;
+   min-width: 990px;
+   background-color: #F4A460;
+   color: #000066;
+}
+
+#header {
+   background-color: #F5DEB3;
+   color: #A0522D;
+   font-size: 140%;
+   background-repeat: no-repeat;
+   background-image: url(../images/cover.jpg);
+   padding: 20px 20px 20px 135px;
+}
+
+h1 {
+   margin-bottom: 30px;
+   color:#FFFFFF;
+   }
+
+h2 {
+   color: #869DC7;
+   font-family: Arial, sans-serif; 
+}
+
+#news {
+   float: right;
+   width: 150px;
+   font-size:0.8em;
+   padding: 40px 5px 10px 10px;
+   background-color: #FFA07A	;
+}
+
+#nav  {
+   float: left;
+   width: 150px;
+   font-weight: bold;
+   letter-spacing: 0.2em;
+}
+
+#nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+#nav a {
+   text-decoration: none;
+   padding: 10px;
+   display: block;
+   background-color: #e55520;
+   border-bottom: 4px solid #FFFFFF;
+}
+
+#nav a:link {
+   color: #FFFFFF;
+}
+
+#nav a:visited {
+   color: #EAEAEA;
+}
+
+#nav a:hover {
+   color: #808080;
+   background-color: #EAEAEA;
+}
+   
+   
+#content {
+   background-color: #FFFFCC;
+   color: #000000;
+   padding: 20px 20px;
+   overflow: auto;
+   }
+   
+#footer {
+   font-size: 90%;
+   text-align: center;
+   padding: 10px;
+   background-color: #FF7F50;
+   clear:both;
+}
+
+#floatright {
+   float: right;
+   margin: 10px;
+}
+
+
+
+
+
